@@ -1,5 +1,5 @@
 # Blood Donations 
-Idea from: [Drive Data](https://www.drivendata.org/competitions/2/)
+Idea from: [Driven Data](https://www.drivendata.org/competitions/2/)
 
 Created on Mon Oct 10 16:11:11 2016
 @author: igor
