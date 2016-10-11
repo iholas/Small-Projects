@@ -9,8 +9,9 @@ Implementing three classification methods to predict blood donation
 2) Stochaistic Gradient Descent Classifier
 3) ADA Boosted Decision Tree Classifier 
 
-Included is a comparison of the results. 
-ADA Boost > Logistic > SGDC
+Currently the SGDC method is very lousy, must try to improve
+Logistic regression has decent accuracy. but poor recall
+ADABoost Classifier has good Accuracy, but still sub 0.5 recall.  
 """
 
 import pandas as pd
