@@ -20,12 +20,12 @@ from sklearn import linear_model
 from sklearn import ensemble
 # import seaborn as sns
 # import numpy as np
-from ggplot import ggplot, aes, geom_point
+
 
 # FUNCTION FOR EVALUATING AND PLOTTING THE RESULTS
 def eval(df_in, predicted, method):
     print(method)
-    
+    from ggplot import ggplot, aes, geom_point
     df = df_in
     
     df['Correct']= df[predicted] == df['donation_flag']
